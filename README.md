@@ -57,6 +57,7 @@ This paper was published in April 2018, and it is the most recent paper applying
 In addition to that, CVAE is implementable on laptop, whereas other methods sometimes need a bulk of computer properties(such as [9].)  
   
 Using such autoencoders, anomaly detection will be easy.(in future work I can impliment heat map which clearly tells anomalies from norms [10] )  
+__I couldn't do operational check because of my laptop's lack in spec__
   
 According to Hold-out method, I devided images into train(3001 images) and test(2000 images).   
 Directory structures are below. you should put lenses directory at the same place as this notebook.   
