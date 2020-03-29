@@ -47,7 +47,7 @@ The goal is to use this learned representation for anomaly detection, hence you 
    
 A. Considering the purpose is anomaly detection, I choose Autoencoder as the most appropriate method, as discussed in [1].  
 I think Conditional VAE (CVAE)[5] especially suits this purpose.   
-Deep neural network architecture is known to function relatively better in tasks about images than MLP(multilayer perception), and in the early stage Convolutional AutoEncoder(hereafter CAE)[2] and Variational AutoEncoder(VAE)[8] was the most competent method.
+Deep neural network architecture is known to function relatively better in tasks about images than MLP(multilayer perception), and in the early stage Convolutional AutoEncoder(hereafter CAE)[2] and Variational AutoEncoder(VAE)[8] were the most competent method.
 Of cource, it is said that CNN architecture in general performs well, speaking of image processing.  
 CAE incorpolates CNN's algorithm into itself, and according to [3],[4] (written in Japnanese), it clearly shows that CAE overwhelms other MLP algorithms.   
 VAE incorpolates probability distribution into latent variable z, and it also performs as well as CAE does.
